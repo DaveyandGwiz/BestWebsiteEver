@@ -10,7 +10,7 @@ fetch("https://google-search3.p.rapidapi.com/api/v1/search/q=elon+musk", {
 .then(response => {
 	console.log(response);
 	console.log(response.content);
-	document.write(response['url'])
+	//document.write(response['url'])
 	//let myVar = response.originator['name']
 	//document.write(`-${myVar}`)
 })
